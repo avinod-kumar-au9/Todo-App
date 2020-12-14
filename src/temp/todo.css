@@ -1,0 +1,372 @@
+.todo {
+  position: relative;
+  border: 1px solid #bb8858;
+  box-shadow: 0px 0px 10px #aaaaaa,0px 0px 10px #aaaaaa,5px 0px 8px #aaaaaa;
+  
+  min-height: 600px;
+  width: 370px;
+  /* border-radius: 3px; */
+  margin-left: 250px;
+  background-blend-mode: lighten;
+  
+  
+  background-image: url(https://www.xmple.com/wallpaper/blue-gradient-pink-linear-2160x3840-c2-ffb6c1-87ceeb-a-315-f-14.svg);
+  background-position: center;
+  background-size: cover; 
+  /* background-color: #6abdc0; */
+}
+
+.check {
+  width: 16px;
+  height: 16px;
+}
+
+.todo .todoSearch {
+  width: 330px;
+  height: 25px;
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid #89db51;
+  padding: 8px;
+  margin-left: 10px;
+}
+
+
+
+.hrline {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.taskadd {
+  position: relative;
+  margin-top: 40px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.taskadd * {
+  float: left;
+}
+
+.todo .todoaddInput {
+  height: 30px;
+  font-size: large;
+  border-radius: 8px;
+  border: 1px solid blue;
+  margin-right: 15px;
+  padding: 8px;
+}
+
+.taskerror {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+  color: red;
+}
+
+.todo .title {
+  text-align: center;
+  color: #2c20d6;
+}
+
+.todoaddButt {
+  font-size: 45px;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.alltodosgrp {
+  padding: 10px 0;
+  margin-bottom: 100px;
+}
+
+.TodoData:hover {
+  border: 1px solid #a05555;
+  padding: 10px;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  margin: 20px;
+  min-width: 335px;
+  min-height: 20px;
+  padding: 10px 0;
+  color: #ca7353;
+  display: inline-block;
+}
+
+.TodoData {
+  margin: 20px;
+  min-width: 330px;
+  min-height: 20px;
+  border: 1px solid #eee8e8;
+  padding: 10px 0;
+  color: #ca7353;
+  display: inline-block;
+}
+
+.TodoData * {
+  float: left;
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.TodoData .todoitems {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+ "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  max-width: 155px;
+  word-wrap: break-word;
+  color: rgba(240, 233, 233, 0.993);
+  font-weight: 500;
+  font-size: larger;
+}
+
+.TodoData .todogroup {
+  float: right;
+}
+
+.TodoData .todoeditbutt {
+  background-color: transparent;
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+.TodoData .todoeditbutt:hover {
+  border: 1px solid #f3ecec;
+  cursor: pointer;
+  color: orangered;
+}
+
+.TodoData .todoupdatebutt {
+  background-color: transparent;
+  padding: 5px;
+
+  border: 1px solid transparent;
+}
+
+.TodoData .todoupdatebutt:hover {
+  border: 1px solid #f3ecec;
+  cursor: pointer;
+  color: orangered;
+}
+
+.TodoData .tododeletebutt {
+  background-color: transparent;
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+.TodoData .tododeletebutt:hover {
+  border: 1px solid #f3ecec;
+  cursor: pointer;
+  color: orangered;
+}
+
+.TodoData .todoupdateinput {
+  padding: 4px;
+  width: 120px;
+  border: 1px solid #c9a2a2;
+  background-color: #f3ecec;
+}
+
+.maintododiv .todo {
+  float: left;
+  margin-right: 100px;
+}
+
+
+
+.maintododiv .todo2 .title {
+  text-align: center;
+  color: #c55b35;
+}
+
+.maintododiv .todo2 .hrtodo {
+  width: 300px;
+  margin-bottom: 50px;
+}
+
+.maintododiv .todo2 {
+  float: left;
+  position: relative;
+  
+  min-height: 600px;
+ 
+
+ 
+  border: 1px solid #bb8858;
+
+  width: 370px;
+  
+  box-shadow: 0px 0px 10px #df9f9f,0px 0px 10px #d6a6a6,5px 0px 8px hsl(0, 31%, 78%);
+  background-image: url(https://images.template.net/wp-content/uploads/2015/11/25190806/Free-Download-Brown-Plain-Wood-Background.jpg);
+  background-position: center;
+  background-size: cover;
+  
+}
+
+.check {
+  width: 16px;
+  height: 16px;
+}
+
+.todo2 .todoSearch {
+  width: 330px;
+  height: 25px;
+  font-size: large;
+  border-radius: 5px;
+  border: 1px solid #89db51;
+  padding: 8px;
+  margin-left: 10px;
+}
+
+.taskadd {
+  position: relative;
+  margin-top: 40px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.taskadd * {
+  float: left;
+}
+
+.todoaddInput {
+  height: 30px;
+  font-size: large;
+  border-radius: 3px;
+  border: 1px solid blue;
+  margin-right: 15px;
+  padding: 8px;
+}
+
+.taskerror {
+  position: absolute;
+  left: 20px;
+  top: 50px;
+  color: red;
+}
+
+.title {
+  text-align: center;
+  color: #c55b35;
+}
+
+.todoaddButt {
+  font-size: 45px;
+  color: blueviolet;
+  cursor: pointer;
+}
+
+.alltodosgrp {
+  padding: 10px 0;
+  margin-bottom: 100px;
+}
+
+.TodoData2:hover {
+  border: 1px solid #e7c8c8;
+  padding: 10px;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  margin: 20px;
+  min-width: 335px;
+  min-height: 20px;
+  padding: 10px 0;
+  color: #ca7353;
+  display: inline-block;
+}
+
+.TodoData2 {
+  margin: 20px;
+  min-width: 330px;
+  min-height: 20px;
+  border: 1px solid #eee8e8;
+  padding: 10px 0;
+  color: #ca7353;
+  display: inline-block;
+}
+
+.TodoData2 * {
+  float: left;
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.TodoData2 .todoitems {
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+ "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  max-width: 155px;
+  word-wrap: break-word;
+  color: white;
+  font-weight: 500;
+  font-size: larger;
+}
+
+.TodoData2 .todogroup {
+  float: right;
+}
+
+.TodoData2 .todoeditbutt {
+  background-color: transparent;
+  padding: 5px;
+  color: rgb(230, 218, 218);
+  border: 1px solid transparent;
+}
+
+.TodoData2 .todoeditbutt:hover {
+  border: 1px solid #f3ecec;
+  cursor: pointer;
+  color: orangered;
+}
+
+.TodoData2 .todoupdatebutt {
+  background-color: transparent;
+  color: rgb(230, 218, 218);
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+.TodoData2 .todoupdatebutt:hover {
+  border: 1px solid #f3ecec;
+  cursor: pointer;
+  color: orangered;
+}
+
+.TodoData2 .tododeletebutt {
+  background-color: transparent;
+  color: rgb(230, 218, 218);
+  padding: 5px;
+  border: 1px solid transparent;
+}
+
+.TodoData2 .tododeletebutt:hover {
+  border: 1px solid #f3ecec;
+  cursor: pointer;
+  color: orangered;
+}
+
+.TodoData2 .todoupdateinput {
+  padding: 4px;
+  width: 120px;
+  border: 1px solid #c9a2a2;
+  background-color: #f3ecec;
+}
+
+
+
+
+
+
+
+
+.maintododiv .todo2 .title {
+  text-align: center;
+  color: #faf7f5;
+}
+
+.maintododiv .todo2 .hrtodo {
+  width: 300px;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=todo.css.map */
